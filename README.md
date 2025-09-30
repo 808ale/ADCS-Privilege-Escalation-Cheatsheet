@@ -14,8 +14,7 @@ A curated set of **cheatsheets** for Active Directory Certificate Services (ADCS
 
 ## Contributing
 
-- Keep the format aligned (Theory → Requirements → Placeholders → Linux/Windows → Post-Ex → Notes/Troubleshooting).
-- Use placeholders for **all** environment-specific values.
+- Keep the format aligned (Theory → Requirements → Linux/Windows → Post-Ex → Notes/Troubleshooting).
 - Prefer concise, copy/pasteable command blocks with brief inline comments.
 - PRs welcome for missing ESC variants, detections/mitigations add-ons, or tooling updates.
 
