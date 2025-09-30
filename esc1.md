@@ -14,10 +14,6 @@
 - **Enrollee supplies subject** (`ENROLLEE_SUPPLIES_SUBJECT`) is set.
 - CA permits **UserSpecifiedSAN** (enrollees can set SAN).
 
-### Placeholders
-
-`<DOMAIN>` `<USER>` `<PASS>` `<DC_IP>` `<CA_FQDN>` `<CA_NAME>` `<TEMPLATE_NAME>` `<ALT_UPN>` `<ALT_SAM>` `<FOREST_DN>` (e.g., `DC=corp,DC=local`) `<TARGET_HOST_FQDN>` `<PFX_FILE>`
-
 ---
 
 ## Linux

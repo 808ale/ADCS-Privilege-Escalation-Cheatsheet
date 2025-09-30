@@ -14,11 +14,7 @@
 * Ability to **coerce NTLM** from a target (e.g., **PetitPotam**, **PrinterBug**, **Coercer**).
 * Network access to the CA’s **RPC/DCOM** (e.g., 135 + dynamic RPC).
 * Tooling: `certipy`, coercion tool of choice, `impacket` (`secretsdump.py`, `ticketer.py`, `psexec.py`).
-
-### Placeholders
-
-`<DOMAIN>` `<FOREST_DN>` `<DC_HOSTNAME>` `<DC_FQDN>` `<DC_IP>` `<ADCS_HOSTNAME>` `<ADCS_HOST_FQDN>` `<ADCS_IP>` `<CA_NAME>` `<RELAY_TEMPLATE>` `<USER>` `<PASS>` `<LISTEN_IP>` `<PFX_FILE>` `<CCACHE_FILE>` `<NTHASH>` `<DOMAIN_SID>`
-
+ 
 ---
 
 ## Linux

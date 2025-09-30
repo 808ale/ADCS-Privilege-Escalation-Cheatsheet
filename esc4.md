@@ -18,11 +18,7 @@ If you have powerful rights (e.g., **FullControl**, **WriteDACL**, **WriteOwner*
         - (or) PKINIT Client Authentication `1.3.6.1.5.2.3.4`
         - (or) Any Purpose `2.5.29.37.0`
         - (or) No EKU
-
-### Placeholders
-
-`<DOMAIN>` `<FOREST_DN>` `<DC_IP>` `<CA_NAME>` `<CA_FQDN>` `<TEMPLATE_NAME>` `<USER>` `<PASS>` `<TARGET_UPN>` `<TARGET_USER>` `<OUT_PEM>` `<OUT_PFX>`
-
+ 
 ---
 
 ## Linux

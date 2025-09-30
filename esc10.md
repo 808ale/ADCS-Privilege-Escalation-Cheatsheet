@@ -20,11 +20,7 @@ Two registry-driven misconfigurations can relax certificate-to-account binding:
 - `HKLM\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\CertificateMappingMethods = 0x4`.
 - At least one **Client Authentication** template (e.g., `User`).
 - **GenericWrite/GenericAll** over `<CONTROLLED_USER>`. Target account `<TARGET_USER>` should **not** already have a UPN (e.g., machine accounts like `<DC_HOSTNAME>$` or the built-in Administrator) to avoid constraint violations.
-
-### Placeholders
-
-`<DOMAIN>` `<FOREST_DN>` `<DC_IP>` `<CA_NAME>` `<USER>` `<PASS>` `<CONTROLLED_USER>` `<CONTROLLED_PASS>` `<CONTROLLED_HASH>` `<CONTROLLED_UPN>` `<TARGET_USER>` `<TARGET_UPN>` `<DC_HOSTNAME>` `<PFX_FILE>` `<TARGET_HOST_FQDN>` `<ADMIN_USER>` `<ADMIN_PASS>` 
-
+ 
 ---
 
 ## Linux

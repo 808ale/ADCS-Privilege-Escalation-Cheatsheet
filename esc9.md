@@ -11,11 +11,7 @@
 - Vulnerable template has **NoSecurityExtension** (`CT_FLAG_NO_SECURITY_EXTENSION`) and **Client Authentication** EKU.
 - Attacker has **GenericWrite/GenericAll** over a user **<CONTROLLED_USER>** to modify its UPN (or reset its password).
 - Ability to enroll in the vulnerable template.
-
-### Placeholders
-
-`<DOMAIN>` `<FOREST_DN>` `<DC_IP>` `<CA_FQDN>` `<CA_NAME>` `<TEMPLATE_NAME>` `<USER>` `<PASS>` `<CONTROLLED_USER>` `<CONTROLLED_UPN>` `<TARGET_USER>` `<TARGET_UPN>` `<PFX_FILE>` `<TARGET_HOST_FQDN>`
-
+ 
 ---
 
 ## Linux

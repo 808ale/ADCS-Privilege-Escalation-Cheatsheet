@@ -12,11 +12,7 @@ A Certificate Authority (CA) exposes two powerful rights: **ManageCA** and **Man
 
 - An account with **ManageCA** and/or **ManageCertificates** on the target CA (or the ability to assign those rights).
 - Ability to query the CA and submit certificate requests (e.g., domain user context with enroll rights on some templates).
-
-## Placeholders
-
-`<DOMAIN>` `<USER>` `<PASS>` `<DC_IP>` `<CA_FQDN>` `<CA_NAME>` `<CA_CONFIG_HOST>` `<TEMPLATE_NAME>` `<SUBCA_TEMPLATE>` `<PENDING_REQUEST_ID>` `<SAVED_KEYFILE>` `<SAVED_PEM>` `<PFX_FILE>` `<TARGET_FQDN>` `<FOREST_DN>`
-
+ 
 ---
 
 ## Linux—Enumerate & Abuse ManageCA

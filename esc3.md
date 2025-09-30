@@ -6,8 +6,6 @@
 > [!summary] Overview
 > Templates that issue **Certificate Request Agent** EKU (`1.3.6.1.4.1.311.20.2.1`) to low-privileged users allow them to obtain an **enrollment agent** cert. That cert can then co-sign a CSR to enroll **on behalf of** another user in a second template that permits EoB (enroll-on-behalf-of) and has an authentication EKU (e.g., Client Authentication). Result: a valid cert for the target user, enabling PKINIT to get a TGT and NTLM.
 
-Placeholders: `<FOREST_DN>` `<CA_FQDN>` `<CA_NAME>` `<EA_TEMPLATE>` `<AUTH_TEMPLATE>` `<DOMAIN>` `<ALT_SAM>`
-
 ## Linux
 
 ### Enumerate

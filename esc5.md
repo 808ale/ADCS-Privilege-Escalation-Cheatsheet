@@ -7,19 +7,15 @@
 
 ## Requirements
 
-* **Control over PKI-related AD objects**, including (but not limited to):
+- **Control over PKI-related AD objects**, including (but not limited to):
 
-  * **CA server AD computer object** (potential S4U2Self/S4U2Proxy abuse).
-  * **CA server RPC/DCOM service** access.
-  * **Any descendant object** under `CN=Public Key Services,CN=Services,CN=Configuration,<FOREST_DN>` (e.g., Certificate Templates, Certification Authorities, NTAuthCertificates, Enrollment Services containers).
-* **Local Administrator** on the **CA server** (grants effective ManageCA/ManageCertificates; enables ESC4/ESC7-style attacks).
-* **Ability to reach the CA/DC** over the network (RPC/SMB/LDAP/Kerberos).
-* Tooling: `certipy`, `Certify.exe`, `Rubeus`, `Impacket`.
-
-### Placeholders
-
-`<DOMAIN>` `<FOREST_DN>` `<DC_IP>` `<ADCS_IP>` `<ADCS_HOST_FQDN>` `<CA_NAME>` `<TEMPLATE_NAME>` `<USER>` `<PASS>` `<ADMIN_USER>` `<CONTROLLED_USER>` `<CONTROLLED_MACHINE>` `<CONTROLLED_MACHINE_FQDN>` `<REQUEST_ID>` `<PFX_FILE>` `<KRB5CC_FILE>` `<ATTACK_BOX_USER>` `<ATTACK_BOX_PASS>` `<PROXY_SOCKS_ADDR>` `<PROXY_SOCKS_PORT>` `<DNS_IP>` `<RDP_USER>` `<RDP_PASS>`
-
+  - **CA server AD computer object** (potential S4U2Self/S4U2Proxy abuse).
+  - **CA server RPC/DCOM service** access.
+  - **Any descendant object** under `CN=Public Key Services,CN=Services,CN=Configuration,<FOREST_DN>` (e.g., Certificate Templates, Certification Authorities, NTAuthCertificates, Enrollment Services containers).
+- **Local Administrator** on the **CA server** (grants effective ManageCA/ManageCertificates; enables ESC4/ESC7-style attacks).
+- **Ability to reach the CA/DC** over the network (RPC/SMB/LDAP/Kerberos).
+- Tooling: `certipy`, `Certify.exe`, `Rubeus`, `Impacket`.
+ 
 ---
 
 ## Linux

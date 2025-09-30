@@ -15,11 +15,7 @@
 - CA flag **UserSpecifiedSAN / EDITF_ATTRIBUTESUBJECTALTNAME2 = Enabled**.
 - A template permitting **Client Authentication** EKU (e.g., `User`) and enroll rights for low-privileged users.
 - Environment not enforcing the May 2022 hardening (or otherwise still honoring the CA flag).
-
-### Placeholders
-
-`<DOMAIN>` `<USER>` `<PASS>` `<DC_IP>` `<CA_NAME>` `<CA_FQDN>` `<TARGET_UPN>` `<TARGET_USER>` `<PFX_FILE>` `<TARGET_HOST_FQDN>`
-
+ 
 ---
 
 ## Linux

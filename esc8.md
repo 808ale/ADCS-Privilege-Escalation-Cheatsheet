@@ -11,11 +11,7 @@
 * **Template** published that allows **domain computer enrollment** and **Client Authentication** (e.g., `Machine`/`Computer`; for DCs: `DomainController`).
 * Ability to **coerce/capture NTLM** from a target machine (e.g., PrinterBug, PetitPotam, Coercer).
 * Network access from attacker to **ADCS HTTP endpoint** and to target for coercion.
-
-### Placeholders
-
-`<DOMAIN>` `<FOREST_DN>` `<DC_HOSTNAME>` `<DC_FQDN>` `<DC_IP>` `<ADCS_HOSTNAME>` `<ADCS_HOST_FQDN>` `<ADCS_IP>` `<CA_NAME>` `<TEMPLATE_NAME>` `<USER>` `<PASS>` `<ATTACK_BOX_USER>` `<ATTACK_BOX_PASS>` `<ATTACK_BOX_IP>` `<LISTEN_IP>` `<RELAY_TEMPLATE>` `<PFX_FILE>` `<CCACHE_FILE>` `<NTHASH>` `<DOMAIN_SID>` `<SPN>`
-
+ 
 ---
 
 ## Linux

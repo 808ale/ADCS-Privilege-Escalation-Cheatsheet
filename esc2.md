@@ -14,11 +14,7 @@ If an enrollable template has **Any Purpose** EKU (`2.5.29.37.0`) or **no EKUs a
 - **Authorized Signatures Required = 0**.
 - Template EKUs: **Any Purpose** or **no EKUs**.
 - For **Path A** additionally: **Enrollee supplies subject** and CA allows **UserSpecifiedSAN**.
-
-### Placeholders
-
-`<DOMAIN>` `<FOREST_DN>` `<USER>` `<PASS>` `<DC_IP>` `<CA_FQDN>` `<CA_NAME>` `<TEMPLATE_NAME>` `<ALT_UPN>` `<ALT_SAM>` `<TARGET_HOST_FQDN>` `<PFX_FILE>`
-
+ 
 ---
 
 ## Linux
